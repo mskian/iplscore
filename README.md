@@ -1,5 +1,7 @@
 # IPL Score 🏏
 
+![Uptime Robot status](https://img.shields.io/uptimerobot/status/m785989129-8ff3f3df9f0565f6f2b89a2d)  
+
 Cricket API for Get the Live IPL Cricket Score from espncricinfo.com.
 
 > Simple Scrape Method to Fetch the Live Cricket Score from espncricinfo.com
