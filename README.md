@@ -6,6 +6,13 @@ Cricket API for Get the Live IPL Cricket Score from espncricinfo.com.
 
 > Simple Scrape Method to Fetch the Live Cricket Score from espncricinfo.com
 
+## Demo 🪁
+- Website Demo - https://iplapi2020.herokuapp.com/
+- API Demo :
+```
+https://iplapi2020.herokuapp.com/api.php?url=https%3A%2F%2Fwww.espncricinfo.com%2Fseries%2F8048%2Fgame%2F1216492%2Fmumbai-indians-vs-chennai-super-kings-1st-match-indian-premier-league-2020-21
+```
+
 ## Methods Used ⚙
 
 - PHP cURL - Read the Page Content
