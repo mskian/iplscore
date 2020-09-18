@@ -2,7 +2,7 @@ var url = "https://www.espncricinfo.com/series/8048/game/1216492/mumbai-indians-
 
 async function fetchscore() {
     try {
-        const response = await fetch('/api.php/?url=' + url);
+        const response = await fetch('/api.php?url=' + url);
         const data = await response.json();
         console.log(data);
         if (document.getElementById('liveipl') != null) {
