@@ -33,7 +33,7 @@ Cricket API for Get the Live IPL Cricket Score from espncricinfo.com.
 {
     "success": true,
     "livescore": {
-        "score": "Mumbai Indians vs Chennai Super Kings 1st Match Match Details, Schedule"
+        "score": "MI 39\/0 (3.4 ov, Quinton de Kock 26*, Rohit Sharma 12*, Lungi Ngidi 0\/13) - Live - Mumbai Indians vs Chennai Super Kings, Indian Premier League 2020 2020, 1st Match Match Live Score"
     }
 }
 ```
