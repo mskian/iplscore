@@ -47,7 +47,7 @@ try
 
     if ($string = getSDLink($data))
     {   
-        $a = array( 'Summary | ESPNcricinfo.com', 'Report | ESPN.com' );
+        $a = array( 'Summary | ESPNcricinfo.com', 'Report | ESPN.com', 'Summary, Report | ESPNcricinfo.com' );
         $result = str_replace($a, '', $string);
         $final = trim(preg_replace('/\s+/', ' ', $result));
         $score = rtrim($final, ',');
