@@ -1,4 +1,4 @@
-var url = "https://www.espncricinfo.com/series/8048/game/1216493/delhi-capitals-vs-kings-xi-punjab-2nd-match-indian-premier-league-2020-21"
+var url = "https://www.espncricinfo.com/series/8048/game/1216508/kolkata-knight-riders-vs-mumbai-indians-5th-match-indian-premier-league-2020-21"
 
 async function fetchscore() {
     try {
