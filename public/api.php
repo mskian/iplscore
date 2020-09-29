@@ -6,9 +6,6 @@ header('Access-Control-Allow-Methods: GET');
 header('Access-Control-Allow-Headers: X-Requested-With');
 header('X-Robots-Tag: noindex, nofollow', true);
 
-//$current_page = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-//header("Refresh: 20; URL=$current_page");
-
 $msg = [];
 $url = '';
 $score= [];
@@ -33,7 +30,7 @@ try
     curl_setopt( $ch, CURLOPT_ENCODING, 'gzip');
     curl_setopt( $ch, CURLOPT_TIMEOUT, 20);
     curl_setopt( $ch, CURLOPT_CONNECTTIMEOUT, 5);
-    curl_setopt( $ch, CURLOPT_USERAGENT, "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36");
+    curl_setopt( $ch, CURLOPT_USERAGENT, "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36");
     curl_setopt( $ch, CURLOPT_HEADER, false);
     curl_setopt( $ch, CURLOPT_RETURNTRANSFER, true);
     $data = curl_exec($ch);
@@ -52,7 +49,7 @@ try
 
     } elseif ($score == null)
     {
-        $msg['livescore']['score'] = 'Not Found';
+        $msg['livescore']['score'] = 'Live Score Data Not Found';
 
     } else {
 
