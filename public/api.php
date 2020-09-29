@@ -65,8 +65,8 @@ catch(Exception $e)
 
 function getSDLink($curl_content)
 {
-    $regexRateLimit = '/property="og:title"\s*content="([^"]+)"/';
-    $regexSrc = '/\<title(.*)\>(.*)\<\/title\>/i';
+    $regexRateLimit = '/<title>(.+)<\/title>/i';
+    $regexSrc = '/property="og:title"\s*content="([^"]+)"/';
 
     if (preg_match($regexRateLimit, $curl_content, $match))
     {
